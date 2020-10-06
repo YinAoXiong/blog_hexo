@@ -1,0 +1,14 @@
+<footer class="mt-5">
+  <div class="text-center py-3">
+    <div style="font-size: 0.85rem;">Copyright © 2016-<span id="copyright-now-year">inf</span> yinaoxiong's blog All Rights Reserved</div>
+    <%- partial('_partial/statistics.ejs') %>
+    <%- partial('_partial/beian.ejs') %>
+    <% if(theme.web_analytics.cnzz) { %>
+      <!-- cnzz Analytics Icon -->
+      <span id="cnzz_stat_icon_<%- theme.web_analytics.cnzz %>" style="display: none"></span>
+    <% } %>
+  </div>
+</footer>
+
+<!-- SCRIPTS -->
+<%- partial('_partial/scripts.ejs') %>
