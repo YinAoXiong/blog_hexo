@@ -878,7 +878,7 @@ static_prefix:
 
   katex: https://cdn.staticfile.org/KaTeX/0.12.0/
 
-  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
+  busuanzi: https://cdn.jsdelivr.net/gh/YinAoXiong/busuanzi@2.3.0/
 
   clipboard: https://cdn.staticfile.org/clipboard.js/2.0.6/
 
