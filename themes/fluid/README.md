@@ -9,12 +9,12 @@
 
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%203.0-orange?style=flat"></a>
-  <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%208.1.0-yellowgreen?style=flat"></a>
+  <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%208.10.0-yellowgreen?style=flat"></a>
   <a title="License" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/fluid-dev/hexo-theme-fluid.svg?style=flat"></a>
   <br>
   <a title="GitHub Release" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/fluid-dev/hexo-theme-fluid?style=flat"></a>
-  <a title="GitHub Commits" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/commits/master"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/fluid-dev/hexo-theme-fluid.svg?style=flat&color=brightgreen"></a>
-  <a title="Last Commit" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/commits/master"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/fluid-dev/hexo-theme-fluid/master.svg?style=flat&color=FF9900"></a>
+  <a title="Npm Downloads" target="_blank" href="https://www.npmjs.com/package/hexo-theme-fluid"><img alt="Npm Downloads" src="https://img.shields.io/npm/dt/hexo-theme-fluid?color=red&label=npm"></a>
+  <a title="GitHub Commits" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/commits/master"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/fluid-dev/hexo-theme-fluid.svg?style=flat&color=brightgreen&label=commits"></a>
   <br><br>
   <a title="GitHub Watchers" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/watchers"><img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/fluid-dev/hexo-theme-fluid.svg?label=Watchers&style=social"></a>  
   <a title="GitHub Stars" target="_blank" href="https://github.com/fluid-dev/hexo-theme-fluid/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/fluid-dev/hexo-theme-fluid.svg?label=Stars&style=social"></a>  
@@ -25,13 +25,13 @@
 
 <p align="center">
   <span>文档：</span>
-  <a href="https://hexo.fluid-dev.com/docs/">用户手册</a>&nbsp&nbsp&nbsp&nbsp
+  <a href="https://hexo.fluid-dev.com/docs/guide/">主题配置</a>&nbsp&nbsp&nbsp&nbsp
   <a href="https://hexo.io/zh-cn/docs/front-matter">文章配置</a>
 </p>
 
 <p align="center">
   <span>预览：</span>
-  <a href="https://hexo.fluid-dev.com/">demo</a>&nbsp&nbsp&nbsp&nbsp
+  <a href="https://hexo.fluid-dev.com/">Fluid's blog</a>&nbsp&nbsp&nbsp&nbsp
   <a href="https://zkqiang.cn">zkqiang's blog</a>
 </p>
 
@@ -43,9 +43,19 @@
 
 #### 2. 获取主题最新版本
 
-请优先下载 [最新 release 版本](https://github.com/fluid-dev/hexo-theme-fluid/releases)，master 分支无法保证稳定。
+**方式一：**
 
-下载后解压到 themes 目录下并重命名为 `fluid`。
+Hexo 5.0.0 版本以上，推荐通过 npm 直接安装，进入博客目录执行命令：
+
+```sh
+npm install --save hexo-theme-fluid
+```
+
+然后在博客目录下创建 `_config.fluid.yml`，将主题的 [_config.yml](https://github.com/fluid-dev/hexo-theme-fluid/blob/master/_config.yml) 内容复制进去。
+
+**方式二：**
+
+下载 [最新 release 版本](https://github.com/fluid-dev/hexo-theme-fluid/releases) 解压到 themes 目录，并将解压出的文件夹重命名为 `fluid`。
 
 #### 3. 指定主题
 
@@ -54,7 +64,7 @@
 ```yaml
 theme: fluid  # 指定主题
 
-language: zh-CN  # 指定语言，可不改
+language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
 ```
 
 #### 4. 创建「关于页」
@@ -62,14 +72,14 @@ language: zh-CN  # 指定语言，可不改
 首次使用主题的「关于页」需要手动创建：
 
 ```bash
-$ hexo new page about
+hexo new page about
 ```
 
 创建成功后，编辑博客目录下 `/source/about/index.md`，添加 `layout` 属性。
 
 修改后的文件示例如下：
 
-```yml
+```yaml
 ---
 title: about
 date: 2020-02-23 19:20:33
@@ -79,11 +89,9 @@ layout: about
 这里写关于页的正文，支持 Markdown, HTML
 ```
 
-## 升级主题
+## 更新主题
 
-首先强烈建议学习使用[覆盖配置](https://hexo.fluid-dev.com/docs/guide/#%E8%A6%86%E7%9B%96%E9%85%8D%E7%BD%AE)
-
-然后升级步骤[参照这里](https://hexo.fluid-dev.com/docs/example/#%E6%9B%B4%E6%96%B0%E4%B8%BB%E9%A2%98)
+更新主题的方式[参照这里](https://hexo.fluid-dev.com/docs/start/#更新主题)。
 
 ## 功能特性
 
@@ -100,7 +108,6 @@ layout: about
 - [x] 支持脚注语法
 - [x] 支持 LaTeX 数学公式
 - [x] 支持 mermaid 流程图
-- [x] 音乐播放器
 - [x] 暗色模式
 
 ## 贡献者
@@ -118,21 +125,27 @@ layout: about
 微信群：扫描二维码添加好友进交流群
 
 <details>
-    <summary>二维码</summary>
-    <p><b>好友申请备注：fluid</b></p>
-    <p><b>提问之前请先仔细查阅用户文档</b></p>
-    <img width="200" src="https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/wechat.png" alt="wechat">
+  <summary>二维码</summary>
+  <p><b>好友申请备注：fluid</b></p>
+  <p><b>提问之前请先仔细查阅用户文档</b></p>
+  <img width="200" src="https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/wechat.png" alt="wechat">
 </details>
 
 ## 支持
 
 你可以通过[爱发电](https://afdian.net/@zkqiang)支持我们的开源创作，资金将用于服务器开销以及今后的公共接口服务
 
-<a href="https://afdian.net/@zkqiang">
-  <img width="300" src="https://static.zkqiang.cn/images/20200715113201.png-slim" alt="support me">
+<a title="支持我们" href="https://afdian.net/@zkqiang" target="_blank">
+  <img src="https://github.com/fluid-dev/static/blob/master/hexo-theme-fluid/afdian.png?s=300&v=4" width="300" alt="爱发电">
 </a>
 
 其他商业赞助可发送邮件至 zkqiang#126.com (#替换为@)
+
+## 鸣谢
+
+<a title="鸣谢 JetBrains 免费授权开发工具" href="https://www.jetbrains.com/?from=hexo-theme-fluid" target="_blank">
+  <img src="https://raw.githubusercontent.com/fluid-dev/static/690616966f34a58d66aa15ac7b550dd7bbc03967/hexo-theme-fluid/jetbrains.svg" width="150" alt="JetBrains">
+</a>
 
 ## Star 趋势
 
