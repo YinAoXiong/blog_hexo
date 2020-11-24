@@ -847,7 +847,12 @@ links:
         link: "https://www.yangwenzhuo.top/",
         # image: "/img/favicon.png",
       }
-
+    - {
+        title: "Edwardzcn's blog",
+        intro: "我执 我思",
+        link: "https://www.edwardzcn98yx.com/",
+        # image: "/img/favicon.png",
+      }
 
 #---------------------------
 # 以下是配置 JS CSS 静态资源的 URL 前缀，可以自定义成 CDN 地址，
