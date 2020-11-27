@@ -793,7 +793,7 @@ about: # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.com
       }
     - {
         class: "iconfont icon-mail",
-        link: "mailto:yinaoxiong@gmail.com",
+        link: "mailto:i@yinaoxiong.cn",
         tip: "Email",
       }
     - {
