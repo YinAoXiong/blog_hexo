@@ -915,6 +915,6 @@ static_prefix:
 
   twikoo: https://cdn.jsdelivr.net/npm/twikoo@0.1.15/dist/
 
-  waline: https://cdn.jsdelivr.net/npm/@waline/client@0.4.2/dist/
+  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/
 
   hint: /lib/hint/
