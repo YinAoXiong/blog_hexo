@@ -12,7 +12,10 @@ date: 2018-5-12 00:43
 
 author: "尹傲雄"
 
-categories: [linux]
+categories: [工程向]
+
+tags: [centos,Linux,教程]
+
 ---
 　　今天想在centos6的服务器上安装使用gitea，但是报错git版本太低，而yum源自带的git比较古老需要自行编译安装。编译安装的过程中遇到了一些问题记录一下。
 编译安装时报错如下：

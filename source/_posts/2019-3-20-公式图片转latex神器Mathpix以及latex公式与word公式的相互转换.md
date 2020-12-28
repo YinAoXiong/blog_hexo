@@ -11,7 +11,10 @@ date: 2019-3-20 17:06
 
 author: "尹傲雄"
 
-categories: [杂类]
+categories: [工程向]
+
+tags: [实用软件,latex]
+
 ---
 
 # 公式图片识别为latex

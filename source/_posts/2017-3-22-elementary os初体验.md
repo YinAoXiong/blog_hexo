@@ -12,7 +12,9 @@ date: 2017-3-22 23:15
 
 author: "尹傲雄"
 
-categories: [linux]
+categories: [工程向]
+
+tags: [Linux,科技体验]
 
 ---
 　　因为想学习linux，所以在自己的电脑上分了一个区装了个linux和win10的双系统。但是装的Ubuntu自己感觉太丑了，而且桌面用起来也不是那么的好用。在网上看看有什么比较好看的linux发行版没有，然后就找到了elementary os，在虚拟机上先装了一下。看起来的确比原装的Ubuntu漂亮多了，虽然电脑现在基本上是生产力工具但是不希望自己的电脑漂亮一点呢？附上一张桌面的截图![屏幕截图](https://cdn.yinaoxiong.cn/image/posts/2017-3-22/post1.jpg)

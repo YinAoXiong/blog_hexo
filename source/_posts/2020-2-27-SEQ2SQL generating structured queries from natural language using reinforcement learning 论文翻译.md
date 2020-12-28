@@ -12,7 +12,10 @@ date: 2020-2-27 16:37
 
 author: "尹傲雄"
 
-categories: [nlp]
+categories: [学术向]
+
+tags: [nlp,text2sql]
+
 ---
 
 # 摘要

@@ -11,7 +11,10 @@ date: 2018-8-19 14:14
 
 author: "尹傲雄"
 
-categories: [前端]
+categories: [工程向]
+
+tags: [前端,npx,教程]
+
 ---
 　　在使用Windows上使用较老版本的nodejs，如何我使用的v8.9其自带的npx的版本为9.7，在Windows上使用会存在：“Path must be a string. Received undefined”的错误。通过 GitHub 上的 issue 可以知道改问题已经在最新版的npx中解决了，可以通过npm手动升级到最新版解决。
 

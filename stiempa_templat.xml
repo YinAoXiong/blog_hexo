@@ -23,6 +23,10 @@
     <loc>{{ config.url | uriencode }}links/</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
   </url>
+  <url>
+    <loc>{{ config.url | uriencode }}tags/</loc>
+    <lastmod>{{ sNow | formatDate }}</lastmod>
+  </url>
 
   <url>
     <loc>{{ config.url | uriencode }}</loc>

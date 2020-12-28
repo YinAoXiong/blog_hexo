@@ -12,7 +12,9 @@ date: 2017-3-7 23:50
 
 author: "尹傲雄"
 
-categories: [算法]
+categories: [学术向]
+
+tags: [题解]
 
 ---
 　　最近在学习开始学习算法，现在看的是刘汝佳的《算法竞赛入门》，感觉还是有必要把一些有问题题目记录下来。另外其他的代码都同步到了gitbub上的仓库了，可能不是最好的，不过都被在uva上ac了。欢迎感兴趣的朋友一起交流，小白一只。贴一下网址：[https://github.com/YinAoXiong/Algorithmic-exercises](https://github.com/YinAoXiong/Algorithmic-exercises)，（全部都是用vs2015写的工程文件，源文件在dbug目录中），还在不断更新中。

@@ -12,7 +12,9 @@ date: 2016-12-20 22:13
 
 author: "尹傲雄"
 
-categories: [c语言]
+categories: [学术向]
+
+tags: [递归,题解]
 
 ---
 具体的题目是：

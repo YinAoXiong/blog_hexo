@@ -293,7 +293,7 @@ navbar:
         link: "/categories/",
         icon: "iconfont icon-category-fill",
       }
-    # - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
@@ -832,7 +832,7 @@ links:
     - {
         title: "Fluid Docs",
         intro: "主题使用指南",
-        link: "https://hexo.fluid-dev.com/docs/",
+        link: "https://hexo.fluid-dev.com/docs",
         # image: "/img/favicon.png",
       }
     - {

@@ -12,7 +12,9 @@ date: 2019-4-7 14:04
 
 author: "尹傲雄"
 
-categories: [杂类]
+categories: [工程向]
+
+tags: [ci,博客]
 
 ---
 

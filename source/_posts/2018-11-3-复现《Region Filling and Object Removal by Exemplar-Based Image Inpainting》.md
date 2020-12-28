@@ -11,7 +11,10 @@ date: 2018-11-3 12:30
 
 author: "尹傲雄"
 
-categories: [cv]
+categories: [学术向]
+
+tags: [cv,复现]
+
 ---
 
 # 论文内容

@@ -12,7 +12,9 @@ date: 2016-12-18 20:58
 
 author: "尹傲雄"
 
-categories: [杂类]
+categories: [工程向]
+
+tags: [博客,github,教程]
 ---
 
 第一次就写一下，自己在github上利用github page这个功能搭建博客的过程也算是一个教程吧。第一次写有什么不对的地方请大家指正啦。

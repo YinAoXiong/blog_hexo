@@ -12,7 +12,9 @@ date: 2016-12-20 22:24
 
 author: "尹傲雄"
 
-categories: [linux]
+categories: [工程向]
+
+tags: [Linux,虚拟机,教程]
 
 
 ---
