@@ -707,7 +707,7 @@ twikoo:
 # See: https://waline.js.org/
 waline:
   serverURL: https://blog-comments.vercel.app
-  placeholder: 说点什么
+  placeholder: 随便说点什么吧，留个邮箱方便接收通知呀
   path: window.location.pathname
   avatar: retro
   meta: ['nick', 'mail', 'link']
@@ -715,7 +715,7 @@ waline:
   lang: zh-CN
   highlight: true
   avatarForce: false
-  requiredFields: []
+  requiredFields: ['mail']
   emojiCDN: ''
   emojiMaps: null
 
