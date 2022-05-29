@@ -745,7 +745,7 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredFields: ['nick', 'mail']
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  emoji: ['https://cdn.yinaoxiong.cn/image/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
